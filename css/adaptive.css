@@ -1,0 +1,340 @@
+@media (max-width: 960px) {
+  .header .header__body .header__use {
+    display: none; }
+  .header .header__body .header__burger {
+    display: block; }
+
+  .main .main__body .main__image {
+    left: -220px; }
+  .main .main__body .main__use .main-title {
+    font-size: 40px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 120%; }
+  .main .main__body .main__use .nain-desc {
+    font-size: 20px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 120%; }
+
+  .image {
+    padding: 40px 0; }
+
+  .mods2 .mods-title {
+    color: #f1f1f1; }
+  .mods2 .block2 {
+    max-width: 100%; }
+    .mods2 .block2 .block-title br {
+      display: none; }
+    .mods2 .block2 .block-desc br {
+      display: none; }
+
+  .mods2 {
+    margin-top: 80px; }
+
+  .mods .mods__body .mods-title {
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 110%; }
+    .mods .mods__body .mods-title br {
+      display: none; }
+  .mods .mods__body .mods__line {
+    flex-direction: column;
+    gap: 40px; }
+    .mods .mods__body .mods__line .opas {
+      opacity: 1; }
+      .mods .mods__body .mods__line .opas .block-line {
+        opacity: 1; }
+    .mods .mods__body .mods__line .mods__line-block {
+      width: 100%;
+      gap: 15px; }
+      .mods .mods__body .mods__line .mods__line-block .block-line {
+        width: 150px;
+        background-color: #ff4c0d; }
+      .mods .mods__body .mods__line .mods__line-block .block-image {
+        display: block;
+        justify-content: center;
+        display: flex; }
+      .mods .mods__body .mods__line .mods__line-block .block-title {
+        color: #ff4c0d; }
+      .mods .mods__body .mods__line .mods__line-block .block-desc {
+        font-size: 14px;
+        font-family: Gilroy;
+        line-height: 160%;
+        letter-spacing: -0.14px; }
+        .mods .mods__body .mods__line .mods__line-block .block-desc br {
+          display: none; }
+  .mods .mods__body .mods__line::before {
+    display: none; }
+  .mods .mods__body .mods__images {
+    display: none; }
+
+  .image .line2 {
+    display: none; }
+  .image .image__body .image-title {
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 110%; }
+  .image .image__body .image-desc {
+    font-size: 14px;
+    font-family: Gilroy;
+    line-height: 160%;
+    letter-spacing: -0.14px; }
+
+  .apdates .line {
+    display: none; }
+  .apdates .apdates__body .apdates-items {
+    gap: 30px;
+    align-items: center;
+    flex-direction: column; }
+  .apdates .apdates__body .apdates-title {
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 600;
+    color: #f1f1f1;
+    line-height: 110%; }
+
+  .mobile .mobile__body .mobile__use .mobile-title {
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 110%; }
+
+  .mobile .mobile__body .mobile__use .mobile-desc {
+    display: none; }
+
+  .mobile .mobile__body {
+    gap: 30px;
+    justify-content: space-between; }
+
+  .comments .line {
+    display: none; }
+  .comments .comments__body .comments-title {
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 110%;
+    color: #f1f1f1; }
+
+  .questions .questions__body {
+    flex-direction: column; }
+
+  .questions .questions__body .questions__use .questions-title {
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 110%; }
+    .questions .questions__body .questions__use .questions-title br {
+      display: none; }
+  .questions .questions__body .questions__use .questions-desc {
+    font-size: 14px;
+    font-family: Gilroy;
+    line-height: 160%;
+    letter-spacing: -0.14px; }
+    .questions .questions__body .questions__use .questions-desc br {
+      display: none; }
+
+  .buy .buy__body .right {
+    display: none; }
+
+  .buy .buy__body {
+    padding: 40px;
+    border-radius: 20px; }
+
+  .buy .buy__body .left .title {
+    color: #f1f1f1;
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 110%; }
+
+  .buy .buy__body img {
+    top: 108px;
+    right: -197px; }
+
+  .footer__body {
+    justify-content: center;
+    flex-direction: column; }
+    .footer__body .footer-title {
+      text-align: center;
+      line-height: 240%; }
+    .footer__body .desc {
+      line-height: 240%;
+      text-align: center; } }
+@media (max-width: 1440px) {
+  .header .header__body .header__use {
+    display: none; }
+  .header .header__body .header__burger {
+    display: block; }
+
+  .buy .buy__body img {
+    top: -20px;
+    right: -197px; }
+
+  html {
+    overflow-x: hidden; }
+
+  .container {
+    padding: 0 40px; }
+
+  .mods .mods__body .light {
+    z-index: -2; } }
+@media (max-width: 576px) {
+  .apdates {
+    display: none; } }
+@media (max-width: 480px) {
+  .container {
+    padding: 0 20px; }
+
+  .main .main__body .main__use {
+    margin-top: 350px; }
+
+  .main .main__body .main__image {
+    position: absolute;
+    top: -820px;
+    z-index: -1;
+    width: 1239px;
+    left: 110px;
+    height: 1305px;
+    left: -278px; }
+
+  .main .main__body .main__use .main-title {
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 100%; }
+
+  .main .main__body .main__use .nain-desc {
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 600;
+    width: 100%;
+    line-height: 120%; }
+
+  .main .main__body .main__use {
+    align-items: center; }
+
+  .mods {
+    margin-top: 120px; }
+    .mods .mods__body .mods-title {
+      font-size: 25px;
+      font-family: Gilroy;
+      font-weight: 600;
+      line-height: 120%; }
+
+  .image .image__body .image-title {
+    margin-top: 300px; }
+
+  .image {
+    background-position: -630px -10px; }
+
+  .apdates {
+    display: none; }
+
+  .mobile .mobile__body {
+    gap: 30px;
+    justify-content: space-between;
+    flex-direction: column; }
+
+  .mobile .mobile__body .mobile__use .mobile-title {
+    color: #f1f1f1; }
+
+  .mobile .mobile__body .mobile__use .mobile-desc {
+    display: block;
+    font-size: 12px;
+    font-family: Gilroy;
+    line-height: 170%;
+    letter-spacing: -0.12px; }
+
+  .image2 .image__body .image-title {
+    color: #151515; }
+
+  .image2 .image__body .image-desc {
+    color: #151515;
+    width: 100%; }
+
+  .comments .comments__body .comments-title {
+    font-size: 23px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 120%; }
+
+  .comments {
+    margin-top: 60px;
+    position: relative; }
+
+  .comments .comments__body .comment__use .sliders {
+    display: none; }
+
+  .comments .comments__body .comment__use {
+    justify-content: center; }
+
+  .comments .comments__body .comments__place .comment {
+    background: #151515;
+    border-radius: 15px;
+    min-width: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; }
+    .comments .comments__body .comments__place .comment .desc {
+      font-size: 12px;
+      font-family: Gilroy;
+      line-height: 170%;
+      letter-spacing: -0.12px; }
+
+  .questions .questions__body .questions__use .questions-button {
+    padding: 15px 35px;
+    border-radius: 65px;
+    background-color: #f1f1f1;
+    color: #151515;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 41px;
+    font-family: Gilroy;
+    font-weight: 700;
+    line-height: 150%; }
+
+  .comments .comments__body .comment__use .button {
+    width: 100%; }
+
+  .questions .questions__body .questions__quests .quest .title {
+    font-size: 16px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 120%; }
+
+  .questions .questions__body .questions__quests .quest .desc {
+    font-size: 12px;
+    font-family: Gilroy;
+    line-height: 170%;
+    letter-spacing: -0.12px; }
+
+  .buy .buy__body .left .title {
+    font-size: 25px;
+    font-family: Gilroy;
+    font-weight: 600;
+    line-height: 120%; }
+
+  .buy .buy__body {
+    padding: 25px;
+    border-radius: 20px; }
+
+  .buy .buy__body .left .main__buttons {
+    margin-top: 30px;
+    border-radius: 108px;
+    width: 231px;
+    display: flex;
+    border: 3px #f1f1f1 solid; }
+
+  .buy .buy__body .left .buttom {
+    width: 100%;
+    margin-top: 300px; }
+
+  .buy .buy__body img {
+    top: 263px;
+    right: 1px; } }
+
+/*# sourceMappingURL=adaptive.css.map */
